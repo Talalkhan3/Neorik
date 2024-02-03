@@ -1,5 +1,4 @@
 import React from "react";
-import { Meteors } from "../ui/meteors";
 
 const Hero = () => {
   return (
