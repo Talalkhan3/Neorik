@@ -9,7 +9,7 @@ const Waysofworking = () => {
           <h1 className="text-white text-3xl font-light">We engage users</h1>
           <p className="mt-4 text-white font-light text-md">
             Meeting user needs is not enough. We focus on both the “jobs to be
-            done” as well as the "joys to be had".
+            done” as well as the &quot;joys to be had&quot;.
           </p>
         </div>
         <div>
@@ -29,7 +29,7 @@ const Waysofworking = () => {
         <div>
           <h1 className="text-white text-3xl font-light">We are Agile</h1>
           <p className="mt-4 text-white font-light text-md">
-            We're customer obsessed, outcome focused, and willing and able to
+            We&apos;re customer obsessed, outcome focused, and willing and able to
             embrace change along the journey.
           </p>
         </div>

@@ -8,13 +8,13 @@ const Getintouch = () => {
       <h1 className="text-center text-[#394BE9] text-[48px]">Get in touch</h1>
       <div className="flex justify-center text-md gap-10 mt-12 max-sm:flex-col">
         <p className="">
-          We're always on the lookout for likeminded people, whether you're a
+          We&apos;re always on the lookout for likeminded people, whether you&apos;re a
           start-up company with big ideas or an established brand ready to make
           a big impact.
         </p>
         <p className="">
-          If you're planning a project you'd like to discuss or interested in
-          working with us please get in touch - we'd love to hear from you.
+          If you&apos;re planning a project you&apos;d like to discuss or interested in
+          working with us please get in touch - we&apos;d love to hear from you.
         </p>
       </div>
       <div className="flex justify-center items-center mt-12">

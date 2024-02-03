@@ -17,7 +17,7 @@ const Header = () => {
       <div >
         <div className="max-xl:hidden">
           <Link href="/Contact">
-            <Button className="bg-[#394BE9] rounded-3xl hover:bg-[#2338F2]">Let's Chat</Button>
+            <Button className="bg-[#394BE9] rounded-3xl hover:bg-[#2338F2]">Let&lsquo;s Chat</Button>
           </Link>{" "}
         </div>
         <div>

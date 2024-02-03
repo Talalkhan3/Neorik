@@ -20,7 +20,7 @@ const Ourvalue = () => {
         </div>
         <div className="w-[360px]">
             <h1 className="text-light text-[36px]">Raise the bar</h1>
-            <p className="text-light">Good enough doesn't cut it, always push forward.</p>
+            <p className="text-light">Good enough doesn&apos;t cut it, always push forward.</p>
         </div>
         <div className="w-[360px]">
             <h1 className="text-light text-[36px]">Use the Freedom</h1>

@@ -13,7 +13,7 @@ const Questions = () => {
       <div className=" flex items-center justify-center pt-12 ">
         <Link href={"/Contact"}>
           <Button className=" rounded-3xl hover:bg-[#2338F2]" size={"lg"}>
-            Let's get Started
+            Let&lsquo;s get Started
           </Button>
         </Link>
       </div>

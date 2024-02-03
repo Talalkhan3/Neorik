@@ -9,7 +9,7 @@ const Wireframe = () => {
           <h1 className="text-4xl font-light max-md:text-4xl">Sitemap</h1>
           <p className="text-lg mt-4 max-md:text-sm">
             A sitemap is a blueprint of your website that help search engines
-            find, crawl and index all of your website's content. Sitemaps also
+            find, crawl and index all of your website&lsquo;s content. Sitemaps also
             tell search engines which pages on your site are most important.
           </p>
         </div>
