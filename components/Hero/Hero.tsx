@@ -14,10 +14,9 @@ const Hero = () => {
       </div>
       <div className="max-sm:text-sm text-[#717171]">
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque,
-          veniam doloremque itaque, animi qui mollitia tempore tempora voluptate
-          eligendi praesentium in cupiditate quae dolorem accusantium possimus
-          soluta magnam non ipsa.
+          A web Design & Digital Marketing Agency build to turn your
+          expectations into realty. Offering services that can boost your sales
+          and make an huge impact on you business
         </p>
       </div>
     </div>
