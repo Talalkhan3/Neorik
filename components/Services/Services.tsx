@@ -1,67 +1,40 @@
 import Image from "next/image";
-import Link from "next/link";
 import React from "react";
+import Imagesmall from "../../public/imagedummy.png";
+import Imagedesktop from "../../public/imagedummydesktop.png";
 
 const Services = () => {
   return (
-    <div className="px-44 max-sm:px-5 max-md:px-5 max-lg:px-5 max-xl:px-5">
-      <div className="text-center mt-48 font-bold">
-        <h1 className="text-6xl text-[#394BE9]">Top Rated Services</h1>
+    <div className="px-[36px] mt-[50px] flex items-center lg:px-[75px] lg:gap-x-[50px]">
+      <div>
+        <h1 className="font-neue text-[20px] font-bold lg:text-[32px]">
+          Bring Your Vision to Life By Delighting Your Customers
+        </h1>
+        <p className=" font-robo text-[14px] text-[#343434] my-[15px] lg:text-[16px]">
+          We help start-ups, SMEs and enterprises grow their business with
+          embedded engineers and outsourced software development.
+        </p>
+        <Image src={Imagesmall} alt="image dummy small" className="lg:hidden" />
+        <p className=" font-robo text-[14px] text-[#343434] my-[15px] lg:text-[16px]">
+          We bridge the gap between your vision and the digital world. We’ve
+          been helping customers since 2009 and take pride in delivering
+          high-quality custom services designed to help you build, grow, and
+          revolutionize your industry.
+        </p>
+        <div className="flex items-center gap-x-3">
+          <button className="py-[10px] rounded-[3px] font-neue text-[14px]  px-[12px] bg-[#394be9]/25 ">
+            Learn More
+          </button>
+          <button className="py-[10px] rounded-[3px] font-neue text-[14px] px-[12px] bg-[#394be9] text-white ">
+            Connect now
+          </button>
+        </div>
       </div>
-      <div className="flex flex-wrap items-center justify-center gap-x-7 gap-y-4 mt-20 ">
-        <Link href={"/services/web-design"}>
-          <div className="flex flex-col items-center rounded-md border border-slate-300 px-24 py-5 h-full cursor-pointer hover:shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px] ease-in duration-100">
-            <Image
-              src="/Hero/Web-Design-Icon-1.svg"
-              alt="logo"
-              width={350}
-              height={100}
-            />
-            <h1 className=" text-xl font-medium text-[#434343] p-7">
-              Web Design
-            </h1>
-          </div>
-        </Link>
-        <Link href={"/services/email-marketing"}>
-          <div className="flex flex-col items-center rounded-md border border-slate-300 px-24 py-5 cursor-pointer hover:shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px] ease-in duration-100">
-            <Image
-              src="/Hero/Web-Strategy-Icon-1.svg"
-              alt="logo"
-              width={350}
-              height={400}
-            />
-            <h1 className=" text-xl font-medium text-[#434343] p-7">
-              Email Marketing
-            </h1>
-          </div>
-        </Link>
-        <Link href={"/services/web-development"}>
-          <div className="flex flex-col items-center rounded-md border border-slate-300 px-24 py-5 cursor-pointer hover:shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px] ease-in duration-100">
-            <Image
-              src="/Hero/WordPress-Developmen-Icon-1.svg"
-              alt="logo"
-              width={350}
-              height={400}
-            />
-            <h1 className=" text-xl font-medium text-[#434343] p-7">
-              Web Developement
-            </h1>
-          </div>
-        </Link>
-        <Link href={"/services/e-commerce"}>
-          <div className="flex flex-col items-center rounded-md border border-slate-300 px-24 py-5 cursor-pointer hover:shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px] ease-in duration-100">
-            <Image
-              src="/Hero/eCommerce-icon-1.svg"
-              alt="logo"
-              width={350}
-              height={400}
-            />
-            <h1 className=" text-xl font-medium text-[#434343] p-7">
-              E-commerce
-            </h1>
-          </div>
-        </Link>
-      </div>
+      <Image
+        src={Imagedesktop}
+        alt="Image for desktop"
+        className="hidden lg:block lg:w-[490px] h-[390px] w-full"
+      />
     </div>
   );
 };

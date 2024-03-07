@@ -12,7 +12,7 @@ import {
 
 const Navbar = () => {
   return (
-    <NavigationMenu className=" max-xl:hidden">
+    <NavigationMenu className=" max-xl:hidden font-neue text-[20px]">
       <NavigationMenuList>
         <NavigationMenuItem>
           <Link href="/" legacyBehavior passHref>

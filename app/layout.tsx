@@ -1,9 +1,7 @@
 import type { Metadata } from "next";
-import { Montserrat } from "next/font/google";
 import "./globals.css";
+import { roobert, neue } from "@/utils/customFonts";
 import { SpeedInsights } from "@vercel/speed-insights/next";
-
-const inter = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Neorik",
@@ -17,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${roobert.variable} ${neue.variable}`}>
         {children}
         <SpeedInsights />
       </body>

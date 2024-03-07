@@ -9,6 +9,10 @@ module.exports = {
   ],
   prefix: "",
   theme: {
+    fontFamily: {
+      robo: ["var(--font-roobert)"],
+      neue: ["var(--font-neue)"],
+    },
     container: {
       center: true,
       padding: "2rem",
@@ -17,8 +21,6 @@ module.exports = {
       },
     },
     extend: {
-     
-
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

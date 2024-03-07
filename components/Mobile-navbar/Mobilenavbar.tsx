@@ -19,8 +19,8 @@ const Mobilenavbar = () => {
   return (
     <Sheet>
       <SheetTrigger>
-        <Button size={"icon"} variant="ghost" className=" p-0 m-0 xl:hidden">
-          <Menu />
+        <Button size={"icon"} variant="ghost" className=" p-0 m-0 lg:hidden text-white">
+          <Menu size={"lg"} />
         </Button>
       </SheetTrigger>
       <SheetContent className="p-0">
