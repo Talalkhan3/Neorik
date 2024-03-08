@@ -76,7 +76,7 @@ const item = [
 ];
 const Questions = () => {
   return (
-    <div className="bg-[#c9c9c9]/15 mx-[36px] my-[46px] px-[16px] py-[32px] rounded-[14px]">
+    <div className="bg-[#c9c9c9]/15 mx-[36px] my-[46px] px-[16px] py-[32px] rounded-[14px] xl:mx-[100px] xl:px-[230px]">
       <h1 className="font-neue text-[32px] font-bold text-center">
         Base of Tools & Technologies
       </h1>

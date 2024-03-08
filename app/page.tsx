@@ -5,6 +5,7 @@ import Header from "@/components/Header/Header";
 import Hero from "@/components/Hero/Hero";
 import Industries from "@/components/Industries/Industries";
 import Services from "@/components/Services/Services";
+import Whyus from "@/components/whyus/Whyus";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Industries />
       <Description />
       <Questions />
+      <Whyus />
       <Footer />
     </main>
   );
