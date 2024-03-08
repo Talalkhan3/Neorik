@@ -4,11 +4,11 @@ import Arrow from "../../public/Arrow.svg";
 const Hero = () => {
   return (
     <div>
-      <div className="flex flex-col items-center justify-center px-[46px] pt-[55px] sm:px-[100px] lg:px-[145px]">
+      <div className="flex flex-col items-center justify-center px-[46px] pt-[55px] sm:px-[100px] lg:px-[145px] xl:px-[300px] 2xl:px-[400px]">
         <h1 className="font-neue font-bold text-[#1E1E1E] text-[48px] text-center sm:text-[96px]">
           We Serve & You <span className="text-[#394BE9]">Choose .</span>
         </h1>
-        <p className="text-center font-robo text-[14px] text-[#717171]">
+        <p className="text-center font-robo text-[14px] text-[#717171] 2xl:px-[150px]">
           A web Design & Digital Marketing Agency build to turn your
           expectations into realty. Offering services that can boost your sales
           and make an huge impact on you business

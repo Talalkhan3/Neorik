@@ -1,85 +1,64 @@
 import Image from "next/image";
 import React from "react";
 
+const step = [
+  {
+    name: "Be Human",
+    desc: "Be yourself and recognise it in others.",
+  },
+  {
+    name: "Learn Together",
+    desc: "Rely on each other and get curious.",
+  },
+  {
+    name: "Raise the bar",
+    desc: "Good enough doesn't cut it, always push forward.",
+  },
+  {
+    name: "Use the Freedom",
+    desc: "We can control the future and it what we want",
+  },
+  {
+    name: "Enjoy the Journey",
+    desc: "Celebrate , even when we fail",
+  },
+];
+
 const Description = () => {
   return (
-    <div className="px-80 my-32 flex flex-col gap-40 max-lg:my-20 max-[1710px]:px-16 max-lg:py-12 max-sm:px-5 max-md:px-5 max-lg:px-5 max-xl:px-5 max-2xl:px-12 ">
-      <div className="flex items-center gap-20 max-md:flex-col ">
-        <div className="flex flex-col">
-          <div>
-            <h1 className="font-bold text-7xl max-lg:text-5xl text-[#1E1E1E] py-10">
-              Why <span className="text-[#394BE9]">Neorik</span>
-            </h1>
-            <p className="text-[#434343] ">
-              As a web design firm, we are the home to the best web designers,
-              skilled in creating beautiful, responsive websites. We wield a
-              deep understanding of graphic design, logo design, and coding
-              languages like HTML, to craft unique websites that mirror our
-              clients’ brand ethos.
-            </p>
-          </div>
-          <div>
-            <h3 className="font-semibold text-2xl text-[#1E1E1E] pt-7 pb-3">
-              Detail-Driven
-              <span className="text-[#394BE9]">Website Development</span>
-            </h3>
-            <p className="text-[#434343] ">
-              A meticulously created website design can help a business project
-              a compelling digital persona.
-            </p>
-          </div>
-          <div>
-            <h3 className="font-semibold text-2xl text-[#1E1E1E] pt-7 pb-3">
-              Beyond <span className="text-[#394BE9]"> Aesthetics</span>
-            </h3>
-            <p className="text-[#434343]">
-              The impact of a well-designed website extends beyond aesthetics;
-              it can be a powerful tool in driving business development,
-              attracting more traffic, and meeting business goals.
-            </p>
-          </div>
-        </div>
-        <Image
-          src={"/vector1.png"}
-          alt="backgrouund"
-          width={440}
-          height={100}
-          className="max-lg:w-[340px]"
-        />
+    <div className="my-[57px] mx-[36px] rounded-[14px] bg-gradient-to-t from-[#394be9] to-[#394be9]/75 p-[30px] xl:mx-[100px] xl:px-[54px] flex flex-col xl:flex-row xl:items-center  xl:justify-between">
+      <div className="xl:max-w-[600px]">
+        <h1 className="xl:max-w-[250px] text-[32px] font-neue text-white xl:text-[40px]">
+          Our Five key principles
+        </h1>
+        <p className="text-white mt-[25px] font-robo text-[15px] xl:text-[16px]">
+          Lorem ipsum dolor sit amet consectetur. Facilisis lacinia hendrerit
+          sit arcu convallis porttitor viverra iaculis dictum. Senectus risus
+          nec mi amet et risus commodo habitant suspendisse. Risus amet in donec
+          vel ridiculus arcu orci nullam. Sed sed diam tellus sed vulputate
+          velit. Posuere posuere aenean vitae condimentum id.
+          <br />
+          <br />
+          Nulla tortor tincidunt sit pharetra. Pulvinar cursus dignissim
+          adipiscing non nunc hendrerit. Semper diam donec at gravida. Sit nunc
+          morbi nec accumsan sit dignissim. Fermentum euismod in elit non etiam
+          in.
+          <br />
+          <br />
+          Ipsum magna sed orci tellus a. Euismod pretium in cursus ullamcorper
+          et sodales. In quis laoreet sagittis ac elementum consequat at
+          pellentesque dictumst.
+        </p>
       </div>
-      <div className="flex items-center gap-20 max-md:flex-col ">
-        <div className="flex flex-col">
-          <h1 className="font-bold text-7xl text-[#1E1E1E] py-10 max-lg:text-5xl">
-            <span className="text-[#394BE9]">Unique</span> Marketing Strategy
-          </h1>
-          <p className="text-[#434343]">
-            Having a well-rounded online marketing strategy, spearheaded by a
-            solid web design, can significantly boost a company’s marketing
-            efforts. Firms like ours in the Seattle area, with over a decade of
-            experience in digital marketing, have seen first-hand how a new
-            website can transform a business’s trajectory. Our previous projects
-            and helpful feedback from past clients taught us that personalized,
-            creative solutions are the key to successful online marketing.
-          </p>
-          <div>
-            <h1 className="font-semibold text-2xl text-[#1E1E1E] py-10">
-              It’s All About <span className="text-[#394BE9]"> Trust </span>
-            </h1>
-            <p className="text-[#434343]">
-              Consider partnering with a trusted web design company in Seattle
-              WA, for your marketing needs.
-            </p>
-            <p className="text-[#434343]">
-              With professional services from high-end UX to mobile display
-              optimization and support services to help your business respond
-              quickly to changes, you can be assured that your online presence
-              is in capable hands. You’ll benefit from a world-class marketing
-              team that understands your brand identity and knows how to
-              establish a strong digital presence.
-            </p>
-          </div>
-        </div>
-        <Image src={"/vector2.png"} alt="Marketing Picture" width={440} height={100} className="max-lg:w-[340px]" />
+      <div className="mt-[58px] flex flex-col  gap-y-[30px]">
+        {step.map((steps) => {
+          return (
+            <div key={steps.desc}>
+              <h1 key={steps.name} className="text-white text-[24px] xl:text-[30px] font-neue font-bold">{steps.name}</h1>
+              <p key={steps.desc} className="text-[16px] text-[#f9ebff] font-robo font-normal">{steps.desc}</p>
+            </div>
+          );
+        })}
       </div>
     </div>
   );

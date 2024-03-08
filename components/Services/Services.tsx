@@ -5,7 +5,7 @@ import Imagedesktop from "../../public/imagedummydesktop.png";
 
 const Services = () => {
   return (
-    <div className="px-[36px] mt-[50px] flex items-center lg:px-[75px] lg:gap-x-[50px]">
+    <div className="px-[36px] mt-[50px] flex items-center lg:px-[75px] lg:gap-x-[50px] 2xl:px-[150px] 2xl:gap-x-[250px]">
       <div>
         <h1 className="font-neue text-[20px] font-bold lg:text-[32px]">
           Bring Your Vision to Life By Delighting Your Customers

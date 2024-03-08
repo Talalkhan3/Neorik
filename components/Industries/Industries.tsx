@@ -1,73 +1,73 @@
 import Image from "next/image";
 import React from "react";
-
+import Link from "next/link";
+import { Laptop, PenTool, Percent, Ribbon } from "lucide-react";
+const service = [
+  {
+    name: "Web Development Team",
+    desc: "Having a well-rounded online marketing strategy, spearheaded by a solid web design, can significantly boost a company’s marketing efforts. Firms like ours in the Seattle area, with over a decade of experience in digital Marketing",
+    icon: Laptop,
+    butt: "Hire Team",
+    link: "/web-development",
+  },
+  {
+    name: "Marketing Team",
+    desc: "Having a well-rounded online marketing strategy, spearheaded by a solid web design, can significantly boost a company’s marketing efforts. Firms like ours in the Seattle area, with over a decade of experience in digital Marketing",
+    icon: Percent,
+    butt: "Hire Team",
+    link: "/email-marketing",
+  },
+  {
+    name: "Branding Team",
+    desc: "Having a well-rounded online marketing strategy, spearheaded by a solid web design, can significantly boost a company’s marketing efforts. Firms like ours in the Seattle area, with over a decade of experience in digital Marketing",
+    icon: Ribbon,
+    butt: "Hire Team",
+    link: "/brochures",
+  },
+  {
+    name: "Web Design Team",
+    desc: "Having a well-rounded online marketing strategy, spearheaded by a solid web design, can significantly boost a company’s marketing efforts. Firms like ours in the Seattle area, with over a decade of experience in digital Marketing",
+    icon: PenTool,
+    butt: "Hire Team",
+    link: "/web-design",
+  },
+];
 const Industries = () => {
   return (
-    <div className="flex justify-center items-center mt-32 px-80 gap-7 max-2xl:flex-col max-2xl:px-24 max-xl:px-16">
-      <div className="w-[500px] max-sm:w-[300px]">
-        <h1 className="font-bold text-6xl text-[#1E1E1E] max-xl:text-8xl max-lg:text-5xl max-sm:3xl ">
-          <span className="text-[#394BE9]">Industries</span> We Serve
+    <div className="px-[36px] py-[50px] flex flex-col w-full xl:px-[100px]">
+      <div className="bg-[#C9C9C9]/15 px-[20px] py-[20px] rounded-[14px] ">
+        <h1 className="text-[20px] font-neue text-center mb-12 lg:text-[28px]">
+          Access diverse and specialized teams to build your business.
         </h1>
-        <p className="text-[#717171] py-5">
-          Smart Design. Quality Research. Forward-Thinking Strategies. Have an
-          in-depth look into our projects broken down into three phases –
-          website strategy, UI/ UX design and
-        </p>
-      </div>
-      <div className="flex flex-wrap justify-center gap-5">
-        <div className="flex flex-col justify-center items-center gap-4 rounded-lg border px-10 py-10 w-[280px] h-[300px] hover:shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px] hover:cursor-pointer ease-in-out duration-100">
-          <Image
-            src="/Industries/construction.svg"
-            alt="Construction"
-            width={120}
-            height="100"
-          />
-          <h1 className="font-semibold text-[#1e1e1e]">Construction</h1>
-        </div>
-        <div className="flex flex-col justify-center items-center gap-4 rounded-lg border px-10 py-10 w-[280px] h-[300px] hover:shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px] hover:cursor-pointer ease-in-out duration-100">
-          <Image
-            src="/Industries/consulting.svg"
-            alt="Consulting"
-            width={120}
-            height="100"
-          />
-          <h1 className="font-semibold text-[#1e1e1e]">Consluting</h1>
-        </div>
-        <div className="flex flex-col justify-center items-center gap-4 rounded-lg border px-10 py-10 w-[280px] h-[300px] hover:shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px] hover:cursor-pointer ease-in-out duration-100 ">
-          <Image
-            src="/Industries/education.svg"
-            alt="Education"
-            width={120}
-            height="100"
-          />
-          <h1 className="font-semibold text-[#1e1e1e]">Education</h1>
-        </div>
-        <div className="flex flex-col justify-center items-center gap-4 rounded-lg border px-10 py-10 w-[280px] h-[300px] hover:shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px] hover:cursor-pointer ease-in-out duration-100">
-          <Image
-            src="/Industries/healthcare.svg"
-            alt="Healthcare"
-            width={120}
-            height="100"
-          />
-          <h1 className="font-semibold text-[#1e1e1e]">Healthcare</h1>
-        </div>
-        <div className="flex flex-col justify-center items-center gap-4 rounded-lg border px-10 py-10 w-[280px] h-[300px] hover:shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px] hover:cursor-pointer ease-in-out duration-100">
-          <Image
-            src="/Industries/nonprofit.svg"
-            alt="Non Profit"
-            width={120}
-            height="100"
-          />
-          <h1 className="font-semibold text-[#1e1e1e]">Non profit</h1>
-        </div>
-        <div className="flex flex-col justify-center items-center gap-4 rounded-lg border px-10 py-10 w-[280px] h-[300px] hover:shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px] hover:cursor-pointer ease-in-out duration-100">
-          <Image
-            src="/Industries/realestate.svg"
-            alt="Real Estate"
-            width={120}
-            height="100"
-          />
-          <h1 className="font-semibold text-[#1e1e1e]">Real Estate</h1>
+        <div className="flex flex-col gap-y-[25px] xl:flex-row gap-x-[13px]">
+          {service.map((services) => {
+            const LinkIcon = services.icon;
+            return (
+              <div className="bg-white px-[23px] py-[25px] rounded-[5px]" key={services.butt}>
+                <LinkIcon className="h-6 text-[#394BE9]" />
+                <h1
+                  className="text-[16px] font-neue mt-[17px]"
+                  key={services.name}
+                >
+                  {services.name}
+                </h1>
+                <p
+                  className="font-robo text-[13px] text-[#343434] mt-[9px] lg:text-[14px]"
+                  key={services.desc}
+                >
+                  {services.desc}
+                </p>
+                <Link href={services.link} key={services.link}>
+                  <button
+                    className="text-[13px] font-robo font-semibold text-[#394be9] mt-[24px]"
+                    key={services.butt}
+                  >
+                    {services.butt}
+                  </button>
+                </Link>
+              </div>
+            );
+          })}
         </div>
       </div>
     </div>
