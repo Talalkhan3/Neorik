@@ -1,4 +1,5 @@
 import Description from "@/components/Description/Description";
+import Expertise from "@/components/Expertise/Expertise";
 import Questions from "@/components/FAQS/Questions";
 import Footer from "@/components/Footer/Footer";
 import Header from "@/components/Header/Header";
@@ -17,6 +18,7 @@ export default function Home() {
       <Description />
       <Questions />
       <Whyus />
+      <Expertise />
       <Footer />
     </main>
   );
