@@ -5,7 +5,7 @@ import Designservices from './Designservices'
 import Wireframe from './Wireframe'
 import Userinterface from './Userinterface'
 import Footer from '@/components/Footer/Footer'
-import Questions from '@/components/FAQS/Questions'
+import Questions from '@/components/Basictools/Basictools'
 
 const page = () => {
   return (

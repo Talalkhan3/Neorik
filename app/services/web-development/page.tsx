@@ -4,7 +4,7 @@ import Hero from './Hero'
 import Discussa from './Discussa'
 import Discussb from './Discussb'
 import Footer from '@/components/Footer/Footer'
-import Questions from '@/components/FAQS/Questions'
+import Questions from '@/components/Basictools/Basictools'
 
 
 const page = () => {

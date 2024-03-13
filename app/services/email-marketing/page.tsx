@@ -4,7 +4,7 @@ import Hero from './Hero'
 import Emaila from './Emaila'
 import Emailb from './Emailb'
 import Footer from '@/components/Footer/Footer'
-import Questions from '@/components/FAQS/Questions'
+import Questions from '@/components/Basictools/Basictools'
 
 const page = () => {
   return (

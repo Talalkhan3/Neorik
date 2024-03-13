@@ -3,7 +3,7 @@ import React from 'react'
 import Hero from './Hero'
 import Logo1 from './Logo1'
 import Footer from '@/components/Footer/Footer'
-import Questions from '@/components/FAQS/Questions'
+import Questions from '@/components/Basictools/Basictools'
 
 const page = () => {
   return (

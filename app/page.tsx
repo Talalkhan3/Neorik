@@ -1,6 +1,7 @@
+import Cta from "@/components/Cta/Cta";
 import Description from "@/components/Description/Description";
 import Expertise from "@/components/Expertise/Expertise";
-import Questions from "@/components/FAQS/Questions";
+import Basictools from "@/components/Basictools/Basictools";
 import Footer from "@/components/Footer/Footer";
 import Header from "@/components/Header/Header";
 import Hero from "@/components/Hero/Hero";
@@ -16,9 +17,10 @@ export default function Home() {
       <Services />
       <Industries />
       <Description />
-      <Questions />
+      <Basictools />
       <Whyus />
       <Expertise />
+      <Cta />
       <Footer />
     </main>
   );

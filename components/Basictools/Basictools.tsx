@@ -74,7 +74,7 @@ const item = [
     css: "bg-white flex items-center gap-x-[30px] border-[#000000]/30 border rounded-[9px] px-[25px] py-[13px]",
   },
 ];
-const Questions = () => {
+const Basictools = () => {
   return (
     <div className="bg-[#c9c9c9]/15 mx-[36px] my-[46px] px-[16px] py-[32px] rounded-[14px] xl:mx-[100px] xl:px-[230px]">
       <h1 className="font-neue text-[32px] font-bold text-center">
@@ -102,4 +102,4 @@ const Questions = () => {
   );
 };
 
-export default Questions;
+export default Basictools;

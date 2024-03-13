@@ -11,12 +11,12 @@ import {
 const Services = () => {
   return (
     <div className="mt-12 mb-12 px-80 max-sm:px-5 max-md:px-10 max-lg:px-12 max-xl:px-14 max-2xl:px-32">
-      <h1 className="text-center">Our Sevices</h1>
+      <h1 className="text-center font-neue text-[32px]">Our Sevices</h1>
       <div className="flex justify-center items-center mt-16">
         <div className="grid grid-cols-2 max-sm:grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-24 ">
           <div>
-            <h1 className="text-5xl text-[#394BE9]">Design</h1>
-            <p className="text-[#434343] font-light mt-12">
+            <h1 className="text-5xl font-neue text-[#394BE9]">Design</h1>
+            <p className="text-[#434343] text-[18px] mt-12 font-robo ">
               Design is quite simply our passion. From branding and print to
               making things look beautiful on screen, this is what we live and
               breathe. Whether you’re starting out or in need of a rebrand, we
@@ -24,7 +24,7 @@ const Services = () => {
             </p>
             <Accordion type="single" collapsible className="mt-10">
               <AccordionItem value="item-1" className="rounded-md">
-                <AccordionTrigger>
+                <AccordionTrigger className="text-[#394BE9] font-robo text-[20px]">
                   <h1>Digital design</h1>
                 </AccordionTrigger>
                 <AccordionContent>
@@ -36,7 +36,7 @@ const Services = () => {
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-2" className="rounded-md">
-                <AccordionTrigger>
+                <AccordionTrigger className="text-[#394BE9] font-robo text-[20px]">
                   <h1>Branding & logo design</h1>
                 </AccordionTrigger>
                 <AccordionContent>
@@ -48,7 +48,7 @@ const Services = () => {
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-3" className="rounded-md">
-                <AccordionTrigger>
+                <AccordionTrigger className="text-[#394BE9] font-robo text-[20px]">
                   <h1>Brochures, stationery & business cards</h1>
                 </AccordionTrigger>
                 <AccordionContent>
@@ -62,8 +62,8 @@ const Services = () => {
             </Accordion>
           </div>
           <div>
-            <h1 className="text-5xl text-[#394BE9]">Digital</h1>
-            <p className="text-[#434343] font-light mt-12">
+            <h1 className="text-5xl text-[#394BE9] font-neue">Digital</h1>
+            <p className="text-[#434343] text-[18px] mt-12 font-robo">
               We design and build great-looking websites that work on every
               device - we know that mobile-friendly is a must. Using the latest
               responsive design techniques - fast, functional and eye-catching
@@ -71,7 +71,7 @@ const Services = () => {
             </p>
             <Accordion type="single" collapsible className="mt-10">
               <AccordionItem value="item-1" className="rounded-md">
-                <AccordionTrigger>
+                <AccordionTrigger className="text-[#394BE9] font-robo text-[20px]">
                   <h1>Responsive, mobile friendly websites</h1>
                 </AccordionTrigger>
                 <AccordionContent>
@@ -85,7 +85,7 @@ const Services = () => {
               </AccordionItem>
               
               <AccordionItem value="item-3" className="rounded-md">
-                <AccordionTrigger>
+                <AccordionTrigger className="text-[#394BE9] font-robo text-[20px]">
                   <h1>E-Commerce / M-Commerce websites</h1>
                 </AccordionTrigger>
                 <AccordionContent>
@@ -98,7 +98,7 @@ const Services = () => {
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-4" className="rounded-md">
-                <AccordionTrigger>
+                <AccordionTrigger className="text-[#394BE9] font-robo text-[20px]">
                   <h1>Email marketing</h1>
                 </AccordionTrigger>
                 <AccordionContent>

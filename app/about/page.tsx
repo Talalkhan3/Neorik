@@ -4,8 +4,8 @@ import Hero  from './Hero'
 import Ourstory from './Ourstory'
 import Image from 'next/image'
 import Ourvalue from './Ourvalue'
-import Getintouch from './Getintouch'
 import Footer from '@/components/Footer/Footer'
+import Cta from '@/components/Cta/Cta'
 
 const page = () => {
   return (
@@ -13,9 +13,9 @@ const page = () => {
       <Header/>
       <Hero />
       <Ourstory />
-      <Image src="/About/bgimg.jpg" alt='bg Pic' width={1920} height={640} className='mt-32' />
+      <Image src="/About/bgimg.jpg" alt='bg Pic' width={1920} height={640} />
       <Ourvalue />
-      <Getintouch />
+      <Cta />
       <Footer />
       </div>
   )

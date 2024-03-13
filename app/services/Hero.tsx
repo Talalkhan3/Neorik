@@ -1,13 +1,16 @@
-import React from 'react'
+import React from "react";
 
 const Hero = () => {
   return (
-    <div className="bg-[#394BE9] px-96 py-36 mt-7 max-sm:px-5 max-md:px-10 max-lg:px-12 max-xl:px-14 max-2xl:px-32">
-      <h1 className="font-light text-6xl max-md:text-4xl text-center text-white">
-      “We deliver beautifully crafted projects with passion”
-      </h1>
+    <div className="bg-gradient-to-t from-[#394be9]/75 to-[#394be9] px-[33px] py-[50px] lg:px-[100px]">
+      <div className=" md:max-w-[600px] 2xl:max-w-[800px]">
+        <h1 className="text-white font-robo text-[48px] lg:text-[60px] 2xl:text-[80px]">
+          We deliver beautifully crafted projects with passion
+        </h1>
+      </div>
+      <div className="w-full h-[1px] bg-white mt-[50px]"></div>
     </div>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
