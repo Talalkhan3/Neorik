@@ -25,7 +25,7 @@ const Services = () => {
             <Accordion type="single" collapsible className="mt-10">
               <AccordionItem value="item-1" className="rounded-md">
                 <AccordionTrigger className="text-[#394BE9] font-robo text-[20px]">
-                  <h1>Digital design</h1>
+                  <h1>Web Design</h1>
                 </AccordionTrigger>
                 <AccordionContent>
                   We design great-looking websites and mobile apps from the
@@ -37,7 +37,7 @@ const Services = () => {
               </AccordionItem>
               <AccordionItem value="item-2" className="rounded-md">
                 <AccordionTrigger className="text-[#394BE9] font-robo text-[20px]">
-                  <h1>Branding & logo design</h1>
+                  <h1>Brand Identity</h1>
                 </AccordionTrigger>
                 <AccordionContent>
                   From logos with impact to shaping your full visual identity,
@@ -72,7 +72,7 @@ const Services = () => {
             <Accordion type="single" collapsible className="mt-10">
               <AccordionItem value="item-1" className="rounded-md">
                 <AccordionTrigger className="text-[#394BE9] font-robo text-[20px]">
-                  <h1>Responsive, mobile friendly websites</h1>
+                  <h1>Web Development</h1>
                 </AccordionTrigger>
                 <AccordionContent>
                   We use the latest responsive design techniques to deliver
@@ -99,7 +99,7 @@ const Services = () => {
               </AccordionItem>
               <AccordionItem value="item-4" className="rounded-md">
                 <AccordionTrigger className="text-[#394BE9] font-robo text-[20px]">
-                  <h1>Email marketing</h1>
+                  <h1>Digital marketing</h1>
                 </AccordionTrigger>
                 <AccordionContent>
                   We design and build email marketing templates optimised for
