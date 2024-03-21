@@ -2,10 +2,10 @@ import React from "react";
 
 const Logo1 = () => {
   return (
-    <div className="grid grid-cols-2 max-lg:grid-cols-1 max-lg:flex-col justify-between gap-20 px-80 py-32 max-sm:px-5 max-md:px-5 max-lg:px-5 max-xl:px-5 max-2xl:px-16">
-      <div>
-        <h1 className="text-5xl font-light max-md:text-4xl">Branding</h1>
-        <p className="text-lg mt-4 max-md:text-sm">
+    <div className="flex flex-col justify-center gap-y-[47px] lg:gap-x-[80px] w-full lg:flex-row px-[33px] lg:px-[75px] xl:px-[100px] py-[58px]">
+      <div className="w-full">
+        <h1 className="font-neue text-[32px]">Branding</h1>
+        <p className="font-robo text-[18px] mt-[12px]">
           At the heart of every great brand is a big idea and a clear
           philosophy. <br /> <br /> If you know where you want to be and how you want to get
           there, that’s a powerful thing. <br /> <br />But it’s the little details that
@@ -19,11 +19,11 @@ const Logo1 = () => {
           relate to.
         </p>
       </div>
-      <div>
-        <h1 className="text-5xl font-light max-md:text-4xl">
-          One identity in a fragmented worldt
+      <div className="w-full">
+        <h1 className="font-neue text-[32px]">
+          One identity in a fragmented world
         </h1>
-        <p className="text-lg mt-4 max-md:text-sm">
+        <p className="font-robo text-[18px] mt-[12px]">
           You may have noticed that we’re big fans of consistent, cohesive
           branding in every setting, every time. <br /><br /> At Neorik we’re passionate
           about print, but we’re just as dedicated to digital. <br /> <br /> And when we can
