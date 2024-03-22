@@ -26,13 +26,13 @@ const Ecom1 = () => {
           owners make weekly purchases on their devices, while 88% of
           individuals believe that real-time mobile information enhances
           shopping spontaneity. Notably, 30% of mobile shoppers abandon
-          transactions if the mobile experience isn't optimized. <br /> <br />
+          transactions if the mobile experience isn&apos;t optimized. <br /> <br />
           At Neorik, we understand the vital connection between e-commerce and
           m-commerce. Utilizing responsive web design, we ensure that our online
           storefronts maintain impeccable appearance and functionality across
           desktops, phones, and tablets. Looking ahead to 2014 and beyond, the
           essence of a successful online store lies in embracing mobile
-          optimization. With Neorik's responsive m-commerce site, you can
+          optimization. With Neorik&apos;s responsive m-commerce site, you can
           effectively capitalize on this trend.
         </p>
       </div>
