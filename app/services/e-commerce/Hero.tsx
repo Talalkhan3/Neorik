@@ -2,10 +2,11 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className="bg-[#394BE9] px-96 py-24 mt-7 max-sm:px-5 max-md:px-10 max-lg:px-12 max-xl:px-14 max-2xl:px-32">
-      <h1 className="font-bold text-4xl max-md:text-4xl text-center text-white">
-      E-Commerce websites
+    <div className="bg-gradient-to-t from-[#394be9]/75 to-[#394be9] px-[33px] py-[58px]">
+      <h1 className="font-bold font-neue text-[50px] md:text-[70px] text-center text-white">
+        E-commerce 
       </h1>
+      <div className="w-full h-[1px] bg-white mt-[51px]"></div>
     </div>
   )
 }

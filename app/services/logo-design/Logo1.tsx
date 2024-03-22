@@ -2,13 +2,13 @@ import React from "react";
 
 const Logo1 = () => {
   return (
-    <div className="flex flex-col justify-center gap-y-[47px] lg:gap-x-[80px] w-full lg:flex-row px-[33px] lg:px-[75px] xl:px-[100px] py-[58px]">
-      <div className="w-full">
+    <div className=" gap-y-[47px] lg:gap-x-[80px] w-full px-[25px] lg:px-[75px] xl:px-[100px] py-[58px]">
+      <div className="bg-[#C9C9C9]/15 rounded-[14px]  px-[20px] py-[40px] ">
         <h1 className="font-neue text-[32px]">Branding</h1>
-        <p className="font-robo text-[18px] mt-[12px]">
+        <p className="text-[20px] font-robo mt-[15px] xl:max-w-[900px] xl:text-[22px]">
           At the heart of every great brand is a big idea and a clear
           philosophy. <br /> <br /> If you know where you want to be and how you want to get
-          there, that’s a powerful thing. <br /> <br />But it’s the little details that
+          there, that’s a powerful thing. But it’s the little details that
           people really connect with. <br /><br /> Branding is about bringing your business
           to life; making your identity concrete, complete with the quirks that
           set you apart. <br /> <br />Great brand design is the thing that makes you real;
@@ -19,11 +19,11 @@ const Logo1 = () => {
           relate to.
         </p>
       </div>
-      <div className="w-full">
+      <div className="bg-[#C9C9C9]/15 rounded-[14px] mt-[30px] px-[20px] py-[40px]">
         <h1 className="font-neue text-[32px]">
           One identity in a fragmented world
         </h1>
-        <p className="font-robo text-[18px] mt-[12px]">
+        <p className="text-[20px] font-robo mt-[15px] xl:max-w-[900px] xl:text-[22px]">
           You may have noticed that we’re big fans of consistent, cohesive
           branding in every setting, every time. <br /><br /> At Neorik we’re passionate
           about print, but we’re just as dedicated to digital. <br /> <br /> And when we can
